@@ -1,23 +1,5 @@
-*, ::after, ::before {
-    border-width: 0;
-    border-style: solid;
-    border-color: currentColor;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-
-}
-* {
-    --tw-ring-inset: var(--tw-empty, );
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgba(59, 130, 246, 0.5);
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-}
 body{
     box-sizing: border-box;
-    /* background-color: #333; */
 }
 h1{
     text-align: center;
@@ -73,7 +55,7 @@ h2{
     padding-bottom: 3rem;
     padding-left: 25rem;
     padding-right: 20rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 .center-1{
     text-align: start;
@@ -122,9 +104,10 @@ h2{
     width: 5px;
     object-fit: contain;
 }
-.imges-center{
+.img_list{
     display: flex;
-    padding-left: 45px;
+    list-style: none;
+    padding-left: 205px;
 }
 .footer{
     background-color: #016b37;
