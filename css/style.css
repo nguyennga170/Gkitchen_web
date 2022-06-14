@@ -34,14 +34,6 @@ h2{
     font-size: 3rem;
     padding-right: 1rem;
 }
-.ratio-16x9 {
-    --bs-aspect-ratio: 50%;
-    height: 10px;
-}
-.btn .btn-primary{
-    color: white;
-    background-color: #3caf4b;
-}
 .text-center{
     width: auto;
     height: 50px;
@@ -71,8 +63,13 @@ h2{
     padding-right: 25rem;
     padding-top: 1rem;
 }
-.box{
-    text-align: center;
+.col-4{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left :143px;
+    margin-right: 10px;
+    padding-right: 40px;
+    left: 150px;
 }
 .wrapper{
     max-width: max-content;
@@ -89,20 +86,9 @@ h2{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-    
-}
 .justify-center{
     padding-top: 40px;
     padding-bottom: 20px;
-}
-.col{
-    width: 5px;
-    object-fit: contain;
 }
 .img_list{
     display: flex;
@@ -120,6 +106,3 @@ h2{
     padding-left: 65px;
     padding-top: 55px;
 }
-
-
-  
